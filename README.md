@@ -20,9 +20,7 @@ This project features beautiful animations, interactive effects, and a festive E
 
 ## 🚀 Live Demo
 
-👉 [Click Here to View Live](https://github.com/ch-abdullah01/Eid-Portfolio/blob/main/README.md)
-
-*(Replace username with your GitHub username)*
+👉 [Click Here to View Live](https://github.com/ch-abdullah01/Eid-Portfolio.git)
 
 ---
 
