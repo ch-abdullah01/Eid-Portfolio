@@ -20,7 +20,7 @@ This project features beautiful animations, interactive effects, and a festive E
 
 ## 🚀 Live Demo
 
-👉 [Click Here to View Live](https://username.github.io/eid-portfolio/)
+👉 [Click Here to View Live](https://github.com/ch-abdullah01/Eid-Portfolio/blob/main/README.md)
 
 *(Replace username with your GitHub username)*
 
@@ -35,4 +35,34 @@ This project features beautiful animations, interactive effects, and a festive E
 
 ---
 
-## 📂 Project Structure
+#
+---
+
+## 💡 How to Run Locally
+
+1. Download the repository
+2. Open `index.html` in your browser
+3. Click the **Celebrate Eid 🎉** button
+4. Enjoy the animation!
+
+---
+
+## 🎯 Purpose of This Project
+
+This project was created to practice:
+- Front-End Development
+- JavaScript Animations
+- Canvas API
+- Interactive UI Design
+
+---
+
+## 👨‍💻 Author
+
+**Abdullah**
+
+---
+
+## 🌟 Support
+
+If you like this project, please ⭐ star the repository!
