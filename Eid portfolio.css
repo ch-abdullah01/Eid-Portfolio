@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  background: #001d3d;
+  text-align: center;
+  color: white;
+}
+
+#fireworks, #confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.splash {
+  position: fixed;
+  top:0; left:0;
+  width:100%; height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#001d3d;
+  z-index:10;
+}
+.splash h1 {
+  font-size:4em;
+  background: linear-gradient(45deg, gold, orange);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+  0% { text-shadow:0 0 10px gold; }
+  100% { text-shadow:0 0 30px orange; }
+}
+
+#front-photo {
+  width: 30%;
+  max-width: 150px;
+  border-radius: 30%;
+  border: 3px solid gold;
+  display: block;
+  margin: 20px auto;
+  opacity:0;
+  transition: opacity 1s ease, transform 1s ease;
+  transform: translateY(-20px);
+  z-index:1;
+}
+
+.form-container {
+  position: relative;
+  z-index:1;
+  width:80%;
+  max-width:400px;
+  margin:auto;
+  opacity:0;
+  transition: opacity 1s ease, transform 1s ease;
+  transform: translateY(-20px);
+}
+
+input {
+  width: 90%;
+  padding:10px;
+  margin:10px 0;
+  font-size:16px;
+  box-sizing:border-box;
+}
+
+button {
+  width:50%;
+  padding:10px;
+  font-size:16px;
+  background:gold;
+  border:none;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+#result {
+  position: relative;
+  z-index:1;
+  margin-top:20px;
+  opacity:0;
+  transition: opacity 1s ease;
+}
+
+
+#result .flower {
+  display:block;
+  margin: 70px auto;
+  width:200px;
+  max-width:300px;
+}
